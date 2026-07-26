@@ -8,10 +8,10 @@ class AyahskaApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Ayahska Chicken',
+      title: 'AyahskaChicken',
       theme: ThemeData(
         useMaterial3: true,
-        colorSchemeSeed: Colors.red,
+        colorSchemeSeed: Colors.green,
       ),
       home: const HomePage(),
     );
